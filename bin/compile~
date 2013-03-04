@@ -141,7 +141,7 @@ if [ ! "$SKIP_INSTALL" ]; then
   make install 
   cd $WORKING_DIR
   cd $ROOT_DIR/vendor/pysandbox-0.3.5/
-  python setup.py install 
+  python setup.py install  &> /dev/null
   cd $WORKING_DIR
 
   hash -r
