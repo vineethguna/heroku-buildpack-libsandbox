@@ -31,7 +31,7 @@
 
 #include "module.h"
 #include <bytesobject.h>       /* py3k forward compatibility */
-#include "sandbox-dev.h"       /* libsandbox internals */
+#include <sandbox-dev.h>       /* libsandbox internals */
 #include <pwd.h>               /* struct passwd, getpwnam(), getpwuid() */
 #include <grp.h>               /* struct group, getgrnam(), getgrgid() */
 

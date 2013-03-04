@@ -36,7 +36,7 @@
  * in <sandbox.h> to become inconsistent with the pre-compiled libsandbox. Such 
  * inconsistency sometimes crashes the sandbox during initialization. */
 
-#include "sandbox.h"
+#include <sandbox.h>
 
 #undef _POSIX_C_SOURCE
 #undef _XOPEN_SOURCE

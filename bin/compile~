@@ -135,10 +135,9 @@ if [ ! "$SKIP_INSTALL" ]; then
   python setup.py install  &> /dev/null
   cd $WORKING_DIR
 
-  puts-step "Installing libsandbox (0.3.5)"
-  cd $ROOT_DIR/vendor/libsandbox-0.3.5/
-  ./configure
-  make install &> /dev/null
+  puts-step "Installing Pip (1.2.1)"
+  cd $ROOT_DIR/vendor/pip-1.2.1/
+  python setup.py install  &> /dev/null
   cd $WORKING_DIR
   cd $ROOT_DIR/vendor/pysandbox-0.3.5/
   python setup.py install  &> /dev/null
