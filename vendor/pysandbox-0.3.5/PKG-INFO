@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: pysandbox
+Version: 0.3.5
+Summary: The Sandbox Libraries (Python)
+Home-page: http://sourceforge.net/projects/libsandbox
+Author: LIU Yu
+Author-email: pineapple.liu@gmail.com
+License: BSD License
+Description: The sandbox libraries (libsandbox & pysandbox) provide API's in C/C++ and Python
+        for executing and profiling simple (single process) programs in a restricted 
+        environment, or sandbox. These API's can help developers to build automated 
+        profiling tools and watchdogs that capture and block the runtime behaviours of 
+        binary programs according to configurable / programmable policies.
+Platform: UNKNOWN
