@@ -138,7 +138,7 @@ if [ ! "$SKIP_INSTALL" ]; then
   puts-step "Installing libsandbox (0.3.5)"
   cd $ROOT_DIR/vendor/libsandbox-0.3.5/
   ./configure
-  sudo make install 
+  make install 
   cd $WORKING_DIR
   cd $ROOT_DIR/vendor/pysandbox-0.3.5/
   python setup.py install 
